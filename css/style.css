@@ -424,8 +424,8 @@ ul {
   left: 50%;
   transform: translate(-50%, -50%);
 
-  min-width: 500px;
-  min-height: 500px;
+  min-width: 528px;
+  min-height: 581px;
   background-color: var(--with);
   border-radius: 4px;
 }
