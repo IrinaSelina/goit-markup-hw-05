@@ -365,13 +365,15 @@ button {
   padding: 63px 24px;
   opacity: 0;
   pointer-events: none;
-  transition: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .pr-link:hover .wind-hover,
 .pr-link:focus .wind-hover {
   transform: translateY(-100%);
   opacity: 1;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .type {
