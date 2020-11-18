@@ -30,7 +30,9 @@
             >Web<span class="logo-accent">Studio</span></a
           >
           <ul class="site-nav">
-            <li><a href="./" class="link primery-nav">Студия</a></li>
+            <li>
+              <a href="./" class="link primery-nav">Студия</a>
+            </li>
             <li>
               <a href="./portfolio.html" class="link button-secondary"
                 >Портфолио</a
@@ -73,6 +75,65 @@
           <div data-modal class="backdrop is-hidden">
             <div class="modal">
               <button data-modal-close>X</button>
+              <form class="form modal-form">
+                <div class="form-field">
+                  <label class="form-label" for="name">Имя</label>
+                  <div class="form-svg">
+                    <input
+                      class="form-input"
+                      type="text"
+                      name="name"
+                      id="name"
+                    />
+                    <span>
+                      <svg class="form-inpyt-svg">
+                        <use href="./img/symbol-defs.svg#envelope"></use>
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+
+                <div class="form-field">
+                  <label class="form-label" for="tel">Телефон</label>
+                  <input class="form-input" type="tel" name="tel" id="tel" />
+                </div>
+
+                <div class="form-field">
+                  <label class="form-label" for="email">Почта</label>
+                  <input
+                    class="form-input"
+                    type="email"
+                    name="email"
+                    id="email"
+                  />
+                </div>
+
+                <div class="form-field">
+                  <label class="form-label" for="coment">Комментарий</label>
+                  <textarea
+                    name="coment"
+                    id="coment"
+                    cols="30"
+                    rows="10"
+                    placeholder="Введите текст"
+                  ></textarea>
+                </div>
+
+                <div class="form-field-check">
+                  <input
+                    class="form-input-check"
+                    type="checkbox"
+                    name="agreed"
+                    id="agreed"
+                  />
+                  <label class="form-label" for="agreed"
+                    >Соглашаюсь с рассылкой и принимаю</label
+                  >
+                  <a href="">Условия договора</a>
+                </div>
+
+                <button class="check-button" type="submit">Отправить</button>
+              </form>
             </div>
           </div>
         </div>
@@ -433,13 +494,23 @@
           </address>
         </div>
         <div class="join-footer">
-          <b>присоединяйтесь</b>
+          <b>ПРИСОЕДИНЯЙТЕСЬ</b>
           <ul class="join-list">
             <li><a class="join inst" href=""></a></li>
             <li><a class="join twitter" href=""></a></li>
             <li><a class="join facebook" href=""></a></li>
             <li><a class="join linkedin" href=""></a></li>
           </ul>
+        </div>
+        <div>
+          <b>ПОДПИШИТЕСЬ НА РАССЫЛКУ</b>
+          <form>
+            <label>
+              <input type="text" />
+            </label>
+
+            <button type="submit">Подписаться</button>
+          </form>
         </div>
       </div>
     </footer>
